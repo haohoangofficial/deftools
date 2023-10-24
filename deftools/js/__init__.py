@@ -10,9 +10,11 @@ def find(predicate, iterable, default=None):
             return item
     return default
 
+
 # Array.prototype.every()
 def every(predicate, iterable):
     return all(predicate(item) for item in iterable)
+
 
 # Array.prototype.some()
 def some(predicate, iterable):
